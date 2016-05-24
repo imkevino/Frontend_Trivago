@@ -11,7 +11,9 @@
       <script src="js/uikit.js"></script>
 
     </head>
+
     <body>
+
     <script src="js/button.js"></script>
     <script src="js/datepicker.min.js"></script>
 
@@ -27,7 +29,6 @@
         <hr />
         <input type="text" placeholder="City" class="uk-width-small-1">
 
-
         <br/>
 
         <div class="uk-grid">
@@ -38,15 +39,18 @@
 
             <input rows="2" type="text" class="uk-icon-cog" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
           </div>
-          <div class="uk-container-center " data-uk-button-radio>
-            <button class="uk-button"><img class="person" src="img/person1.svg"/></button>
-            <button class="uk-button"><img class="person" src="img/person2.svg"/></button>
-            <button class="uk-button"><img class="person" src="img/person3.svg"/></button>
-            <button class="uk-button"><img class="person" src="img/person4.svg"/></button>
-          </div>
 
-        </div>
+        <div class="uk-width-small-1">
+              <div class="uk-button-group" data-uk-button-radio="">
+                <button class="uk-button" aria-checked="false"><img class="logo" src="img/person1.svg" width=45px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
+                <button class="uk-button" aria-checked="false"><img class="logo" src="img/person2.svg" width=45px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
+                <button class="uk-button" aria-checked="false"><img class="logo" src="img/person3.svg" width=45px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
+                <button class="uk-button" aria-checked="true"><img class="logo" src="img/person4.svg" width=45px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
+              </div>
+
+          </div>
         <a class="uk-button uk-width-small-3-10 push" href="">Search <img src="img/icn_search_blue.svg"></a>
+      </div>
       </form>
 </div>
 </body>

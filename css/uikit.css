@@ -14,8 +14,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   /* 3 */
-  background: #ffffff;
-  color: #444444;
+
+  color: #000000;
 }
 /*
  * Removes default margin.
@@ -3645,6 +3645,7 @@ select.uk-form-width-mini {
  */
 .uk-button-group {
   /* 1 */
+
   display: inline-block;
   vertical-align: middle;
   /* 2 */
@@ -3660,6 +3661,7 @@ select.uk-form-width-mini {
 /* 5 */
 .uk-button-group .uk-button {
   vertical-align: top;
+  margin-left: 5px;
 }
 /* Sub-object: `uk-button-dropdown`
  ========================================================================== */
@@ -8747,4 +8749,19 @@ a.uk-thumbnail:focus {
   h3 {
     page-break-after: avoid;
   }
+}
+.uk-button-group {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap
+}
+
+.uk-button-group > * {
+    display: inline-block
+}
+
+.uk-button-group .uk-button {
+    vertical-align: top
 }

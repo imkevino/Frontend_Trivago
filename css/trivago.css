@@ -1,5 +1,7 @@
 body{
   font-family: Arial;
+  background-image:url('../img/concrete_seamless.png');
+  background-repeat: repeat;
 }
 h1
 {
@@ -28,7 +30,6 @@ margin:20px auto;
 padding:20px 10px;
 }
 
-
 .uk-form.banner{
   border-image: url(../img/header.svg);
   border-image-repeat: repeat;
@@ -50,7 +51,7 @@ form.uk-form.banner input
 
 .person
 {
-  width:40px;
+  max-width:38px;
 }
 
 button{
@@ -79,4 +80,11 @@ margin:10px 10px 0px 0px;
 .person_list
 {
   margin:0 20%;
+}
+div.uk-grid.uk-width-1 button{
+
+  margin-left:0px;
+}
+div.uk-grid.uk-container-center
+{margin: 0 0 0 0px;
 }

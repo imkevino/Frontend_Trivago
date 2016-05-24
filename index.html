@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Trivago</title>
+      <link rel="stylesheet" href="css/uikit.css" />
+      <link rel="stylesheet" href="css/datepicker.css" />
+      <link rel="stylesheet" href="css/trivago.css" />
+      <link rel="stylesheet" href="css/form-advanved.css" />
+      <script src="js/datepicker.min.js"></script>
+      <script src="js/jquery-2.2.4.min.js"></script>
+      <script src="jquery.js"></script>
+      <script src="js/uikit.js"></script>
+
+    </head>
+    <body>
+    <script src="js/button.js"></script>
+    <script src="js/datepicker.min.js"></script>
+
+    <div class="banner">
+
+
+      <form class="uk-form banner uk-width-1-1">
+
+        <img class="logo" src="img/trivago.svg" onerror="this.onerror=null; this.src='trivago.png'">
+        <input type="text" placeholder="City" class="uk-width-8-10">
+        <a class="uk-button push" href="">Search</a>
+
+        <br/>
+
+        <div class="uk-grid">
+          <div class="uk-width-medium-1-2">
+            <input type="text" class="uk-icon-cog" placeholder="Check In" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+          </div>
+          <div class="uk-width-medium-1-2">
+            <input type="text" class="uk-icon-cog" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+          </div>
+          <div data-uk-button-radio>
+            <button class="uk-button"><img src="img/person1.svg"/></button>
+            <button class="uk-button"><img src="img/person2.svg"/></button>
+            <button class="uk-button"><img src="img/person3.svg"/></button>
+            <button class="uk-button"><img src="img/person4.svg"/></button>
+          </div>
+
+        </div>
+      </form>
+</div>
+</body>
+</html>

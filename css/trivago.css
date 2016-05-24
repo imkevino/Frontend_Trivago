@@ -1,0 +1,35 @@
+h1
+{
+color: #fff;
+font-size: 20pt;
+}
+
+form.uk-form.banner
+{
+margin:20px auto;
+width:320px;
+padding:20px;
+
+
+}
+.uk-form.banner{
+  border-image: url(../img/header.svg);
+  border-image-repeat: repeat;
+  border-image-slice: 9;
+  margin: 0 10px 0 0;
+  border-width: 2px 2px 2px 2px;
+ }
+form.uk-form.banner input
+{
+  margin-bottom:20px;
+}
+
+.logo
+{
+  margin-bottom:20pt;
+}
+
+.push
+{
+  margin-bottom:20pt;
+}

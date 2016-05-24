@@ -5,10 +5,9 @@
       <link rel="stylesheet" href="css/uikit.css" />
       <link rel="stylesheet" href="css/datepicker.css" />
       <link rel="stylesheet" href="css/trivago.css" />
-      <link rel="stylesheet" href="css/form-advanved.css" />
+      <link rel="stylesheet" href="css/form-advanced.css" />
       <script src="js/datepicker.min.js"></script>
       <script src="js/jquery-2.2.4.min.js"></script>
-      <script src="jquery.js"></script>
       <script src="js/uikit.js"></script>
 
     </head>
@@ -16,32 +15,38 @@
     <script src="js/button.js"></script>
     <script src="js/datepicker.min.js"></script>
 
-    <div class="banner">
+    <div class="banner uk-width-large-2-6 uk-width-medium-2-7 uk-width-small-2-6">
 
-
-      <form class="uk-form banner uk-width-1-1">
-
+      <form class="uk-form banner uk-width-1-1 ">
+        <div class="logo">
         <img class="logo" src="img/trivago.svg" onerror="this.onerror=null; this.src='trivago.png'">
-        <input type="text" placeholder="City" class="uk-width-8-10">
-        <a class="uk-button push" href="">Search</a>
+        </div>
+        <div class="hotelsearch">
+          <p>Hotel Search</p>
+        </div
+        <hr />
+        <input type="text" placeholder="City" class="uk-width-small-1">
+
 
         <br/>
 
         <div class="uk-grid">
-          <div class="uk-width-medium-1-2">
-            <input type="text" class="uk-icon-cog" placeholder="Check In" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+          <div class="uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2">
+            <input rows="2" type="text" class="uk-icon-cog" placeholder="Check In" data-uk-datepicker="{format:'DD.MM.YYYY'}">
           </div>
-          <div class="uk-width-medium-1-2">
-            <input type="text" class="uk-icon-cog" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+          <div class="uk-width-small-1-2 uk-width-medium-1 uk-width-large-1">
+
+            <input rows="2" type="text" class="uk-icon-cog" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
           </div>
-          <div data-uk-button-radio>
-            <button class="uk-button"><img src="img/person1.svg"/></button>
-            <button class="uk-button"><img src="img/person2.svg"/></button>
-            <button class="uk-button"><img src="img/person3.svg"/></button>
-            <button class="uk-button"><img src="img/person4.svg"/></button>
+          <div class="uk-container-center " data-uk-button-radio>
+            <button class="uk-button"><img class="person" src="img/person1.svg"/></button>
+            <button class="uk-button"><img class="person" src="img/person2.svg"/></button>
+            <button class="uk-button"><img class="person" src="img/person3.svg"/></button>
+            <button class="uk-button"><img class="person" src="img/person4.svg"/></button>
           </div>
 
         </div>
+        <a class="uk-button uk-width-small-3-10 push" href="">Search <img src="img/icn_search_blue.svg"></a>
       </form>
 </div>
 </body>

@@ -22,73 +22,58 @@
         <div class="logo">
           <img class="logo" src="img/trivago.svg" onerror="this.onerror=null; this.src='trivago.png'">
         </div>
-        
+
         <div class="hotelsearch">
           <p>Hotel Search</p>
         </div>
-      </div
-      <!--End of header -->
-
+      </div>
+      <!-- End of Header Section -->
 
       <!-- Calender Dropdowns-->
       <div class="calender uk-width-small-1 ">
-        <input type="text" placeholder="City" class="uk-width-small-1">
+        <input type="text" placeholder="City" class="city uk-width-small-1">
         <br/>
           <div class="uk-grid">
             <div class="uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2 uk-width-xlarge-2-1">
-              <input type="text" class="uk-icon-cog uk-width-1" placeholder="Check In" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+              <input type="text" class="checkin uk-icon-cog uk-width-1" placeholder="Check In" data-uk-datepicker="{format:'DD.MM.YYYY'}">
             </div>
             <div class="uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2">
-              <input type="text" class="uk-icon-cog uk-width-1" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+              <input type="text" class="checkout uk-icon-cog uk-width-1" placeholder="Check Out" data-uk-datepicker="{format:'DD.MM.YYYY'}">
             </div>
       </div>
+        <!--End of Calender Dropdowns-->
       <br>
-      <div class="uk-button-dropdown uk-button uk-width-1-2" data-uk-dropdown="{mode:'click'}" aria-haspopup="true" aria-expanded="false">
-                                <button class="uk-button">Click me<i class="uk-icon-caret-down"></i></button>
-                                <div class="uk-dropdown">
-                                    <ul class="uk-nav uk-nav-dropdown">
-                                        <li><a href="#">Single</a></li>
-                                        <li><a href="#">Double</a></li>
-                                        <li><a href="#">Family</a></li>
-                                        <li><a href="#">Multi</a></li>
-                                    </ul>
-                                </div>
-                            </div>
 
+      <div class="uk-button-dropdown uk-button uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2 uk-width-xlarge-2-1 uk-width-1-2" data-uk-dropdown="{mode:'click'}" aria-haspopup="true" aria-expanded="false">
+        <button class="uk-button">Package<i class="uk-icon-caret-down"></i></button>
+        <div class="uk-dropdown">
+            <ul class="uk-nav uk-nav-dropdown">
+                <li><a href="#">Single Room<img class="logo" src="img/person1.svg" width=24px onerror="this.onerror=null; this.src='/img/person1.png'"></a></li>
+                <li><a href="#">Double Room<img class="logo" src="img/person2.svg" width=24px onerror="this.onerror=null; this.src='/img/person2.png'"></a></li>
+                <li><a href="#">Family Room<img class="logo" src="img/person3.svg" width=24px onerror="this.onerror=null; this.src='/img/person3.png'"></a></li>
+                <li><a href="#">Multi<img class="logo" src="img/person4.svg" width=24px onerror="this.onerror=null; this.src='/img/person4.png'"></a></li>
+            </ul>
+        </div>
+      </div>
+      <!--End of dropdown -->
+      <a class="uk-button uk-width-1-2 uk-width-small-1-2 uk-width-medium-1-2 uk-width-large-1-2 uk-width-xlarge-2-1" href=""> Search <span class="search"><img src="img/icn_search_blue.svg" width="20px;"></span> </a>
+    </div>
 
-
-
-
-          <!--Radio Options & Submit Button for lage screen sizes
-            <div class="uk-width-1" >
-              <div class="uk-button-group" data-uk-button-radio="">
-              <button class="uk-button gutter" aria-checked="false"><img class="logo" src="img/person1_2.svg" width=24px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
-              <button class="uk-button pad" aria-checked="false"><img class="logo" src="img/person2.svg" width=24px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
-              <button class="uk-button pad" aria-checked="false"><img class="logo" src="img/person3.svg" width=24px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
-              <button class="uk-button pad" aria-checked="true"><img class="logo" src="img/person4.svg" width=24px onerror="this.onerror=null; this.src='/img/person1.png'"></button>
-            </div>
-            -->
-
-            <a class="uk-button uk-width-1-2" href="">Search<span class="search"><img src="img/icn_search_blue.svg" width="20px;"></span> </a>
-            </div>
-            <!--End of Radio Options -->
 
         </div>
     </form>
-
+    <!-- Footer Section -->
     <footer>
   		<div class="wrapper">
   			<ul class="social">
-
-  				<li>
-  					<a href="https://plus.google.com/u/0/113192876191171705740" target="_blank"><img src="img/google_icon.png" alt="" title=""></a>
-  				</li>
   				<li>
   					<a href="https://github.com/imkevino/Frontend_Trivago" target="_blank"><img src="img/githubicon.png" alt="" title=""></a>
   				</li>
   			</ul>
   		</div>
   	</footer>
+
+    <!-- End of Footer Section -->
 
 </body>
 </html>

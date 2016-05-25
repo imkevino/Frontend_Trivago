@@ -1,7 +1,7 @@
 body{
   font-family: Arial;
-  background-image:url('../img/concrete_seamless.png');
-  background-repeat: repeat;
+
+  */
 }
 h1
 {
@@ -15,11 +15,18 @@ font-size: 20pt;
   margin:0 auto;
 
   }
+  .logo{
+    display:none;
+  }
+  .logo_animated
+  {
+    display:block;
+  }
 }
 @media(min-width: 980px){
   .banner
   {
-  min-width: 320px;
+  min-width: 420px;
   margin:0 auto;
 
   }
@@ -54,14 +61,11 @@ form.uk-form.banner input
   max-width:38px;
 }
 
-button{
-
-
-}
 .radio button
 {
   border-radius:2px;
   margin-left:9px;
+
 }
 
 .radio button:nth-child(1)
@@ -71,6 +75,7 @@ button{
 }
 .logo{
   float:left;
+  margin-bottom:15px;
 }
 .hotelsearch{
 float: right;
@@ -85,6 +90,102 @@ div.uk-grid.uk-width-1 button{
 
   margin-left:0px;
 }
-div.uk-grid.uk-container-center
-{margin: 0 0 0 0px;
+div.uk-grid.uk-container-center{
+  margin:0 auto;
+}
+span.search{
+  float:right;
+}
+
+.search{
+background-color: #007fad;
+}
+
+button.uk-button.gutter:nth-child(1)
+{
+  margin-left:0;
+}
+button.uk-button.gutter:nth-child(2+3)
+{
+  margin-left:25px;
+}
+
+
+
+button.uk-button.pad{
+  margin-left:45px;
+}
+
+
+/* colours for the border of the text boxes
+
+border-left: 2px solid #f48f00;
+
+border-left: 2px solid #007fad;
+
+border-left: 2px solid #c94a30
+
+*/
+
+.important {
+   font-weight: bold;
+   font-size: xx-large;
+}
+
+.blue {
+   color: blue;
+}
+
+div.uk-button-dropdown.uk-button.uk-width-1-2
+{
+  width:45%;
+
+}
+a.uk-button.uk-width-1-2{
+  width:45%;
+  margin-left:24px;
+}
+/* footer */
+
+footer{
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 80px 0;
+    background: #414751;
+}
+
+footer .copyrights{
+    text-align: center;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer .copyrights .website{
+    text-decoration: none;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+}
+
+
+footer ul.social{
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul.social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer ul.social li:last-child{
+    margin-right: 0;
 }

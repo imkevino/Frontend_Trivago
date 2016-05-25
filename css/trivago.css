@@ -15,6 +15,13 @@ font-size: 20pt;
   margin:0 auto;
 
   }
+  .logo{
+    display:none;
+  }
+  .logo_animated
+  {
+    display:block;
+  }
 }
 @media(min-width: 980px){
   .banner
@@ -68,6 +75,7 @@ form.uk-form.banner input
 }
 .logo{
   float:left;
+  margin-bottom:15px;
 }
 .hotelsearch{
 float: right;
@@ -140,7 +148,12 @@ a.uk-button.uk-width-1-2{
 /* footer */
 
 footer{
-    overflow: hidden;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
     padding: 80px 0;
     background: #414751;
 }

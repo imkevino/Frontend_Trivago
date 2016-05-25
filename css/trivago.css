@@ -1,42 +1,18 @@
+
 body{
   font-family: Arial;
-
-  */
 }
-h1
-{
+h1{
 color: #fff;
 font-size: 20pt;
 }
-@media(min-width: 480px){
-  .banner
-  {
-  min-width: 320px;
-  margin:0 auto;
-
-  }
-  .logo{
-    display:none;
-  }
-  .logo_animated
-  {
-    display:block;
-  }
-}
-@media(min-width: 980px){
-  .banner
-  {
-  min-width: 420px;
-  margin:0 auto;
-
-  }
-}
+/* banner(container) Style
+ ========================================================================== */
 form.uk-form.banner{
 
 margin:20px auto;
 padding:20px 10px;
 }
-
 .uk-form.banner{
   border-image: url(../img/header.svg);
   border-image-repeat: repeat;
@@ -50,29 +26,6 @@ form.uk-form.banner input
   margin-bottom:20px;
 }
 
-
-.push
-{
-  margin-top:20px;
-}
-
-.person
-{
-  max-width:38px;
-}
-
-.radio button
-{
-  border-radius:2px;
-  margin-left:9px;
-
-}
-
-.radio button:nth-child(1)
-{
-  border-radius:2px;
-  margin-left:0px;
-}
 .logo{
   float:left;
   margin-bottom:15px;
@@ -82,48 +35,24 @@ float: right;
 font-size: 12pt;
 margin:10px 10px 0px 0px;
 }
-.person_list
-{
-  margin:0 20%;
-}
-div.uk-grid.uk-width-1 button{
 
-  margin-left:0px;
-}
-div.uk-grid.uk-container-center{
-  margin:0 auto;
-}
+
 span.search{
   float:right;
 }
 
-.search{
-background-color: #007fad;
-}
-
-button.uk-button.gutter:nth-child(1)
-{
-  margin-left:0;
-}
-button.uk-button.gutter:nth-child(2+3)
-{
-  margin-left:25px;
-}
 
 
 
 button.uk-button.pad{
   margin-left:45px;
 }
+/* Border-left Colour
+ ========================================================================== */
 
-
-/* colours for the border of the text boxes
-
-border-left: 2px solid #f48f00;
-
-border-left: 2px solid #007fad;
-
-border-left: 2px solid #c94a30
+input.city.uk-width-small-1{border-left: 2px solid #f48f00;}
+input.checkin.uk-icon-cog.uk-width-1{border-left: 2px solid #007fad;}
+input.checkout.uk-icon-cog.uk-width-1{border-left: 2px solid #c94a30;}
 
 */
 
@@ -136,17 +65,18 @@ border-left: 2px solid #c94a30
    color: blue;
 }
 
+/* button Fix
+ ========================================================================== */
 div.uk-button-dropdown.uk-button.uk-width-1-2
 {
-  width:45%;
+  width:49%;
 
 }
 a.uk-button.uk-width-1-2{
-  width:45%;
-  margin-left:24px;
+  width:49%;
 }
-/* footer */
-
+/* Footer Style
+ ========================================================================== */
 footer{
 
     position: absolute;
@@ -156,6 +86,7 @@ footer{
     width: 100%;
     padding: 80px 0;
     background: #414751;
+    border-top: 2px solid #2a292a;
 }
 
 footer .copyrights{

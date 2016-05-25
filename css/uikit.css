@@ -49,7 +49,7 @@ a,
 }
 a:hover,
 .uk-link:hover {
-  color: #005599;
+  color: #fff;
   text-decoration: underline;
 }
 /* Text-level semantics
@@ -400,6 +400,28 @@ template {
 iframe {
   border: 0;
 }
+
+/* Banner Media Query
+ ========================================================================== */
+
+@media(min-width: 480px){
+  .banner
+  {
+  min-width: 320px;
+  margin:0 auto;
+
+  }
+
+}
+@media(min-width: 980px){
+  .banner
+  {
+  min-width: 420px;
+
+  margin:0 auto;
+
+  }
+}
 /* Fix viewport for IE10 snap mode
  ========================================================================== */
 @media screen and (max-width: 400px) {
@@ -713,6 +735,11 @@ iframe {
   }
   .uk-grid-width-small-1-10 > * {
     width: 10%;
+  }
+
+  .banner{
+
+    width:100
   }
 }
 /* Tablet and bigger */
@@ -7232,6 +7259,7 @@ a.uk-thumbnail:focus {
   /*
      * Stack columns and take full width
      */
+
   .uk-dropdown-grid > [class*='uk-width-'] {
     width: 100%;
   }
@@ -7379,6 +7407,7 @@ a.uk-thumbnail:focus {
     width: auto;
     margin: 10px auto;
   }
+
 }
 /*
  * Open state
